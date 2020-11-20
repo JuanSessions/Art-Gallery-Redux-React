@@ -1,0 +1,16 @@
+nav {
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkslategrey;
+}
+
+a {
+    color: white;
+    font-size: large;
+}
+
+.active {
+    color: black;
+}
