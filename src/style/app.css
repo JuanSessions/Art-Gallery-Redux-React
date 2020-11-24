@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    position: relative;
+    background: rgb(127, 127, 161) 50% no-repeat;
+}
+
+.app h2 {
+    text-align: center;
+}
+
+
+/* HOME */
+
+.home {
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* BUTTONS */
+
+.btns {
+    margin-right: 0.3em;
+    padding: 0.5rem;
+    color: #393b44;
+    border: 1px solid #393b44;
+    border-radius: 0.2rem;
+}
+
+.btns:hover {
+    box-shadow: 1px 3px 9px 2px rgba(0, 0, 0, 0.25);
+}
+
+.add {
+    background-color: #d6e0f0;
+}
+
+
+/* .view {
+    background-color: #d6e0f0;
+    background-color: #8d93ab;
+} */
+
+.remove {
+    background-color: #e7c9ab;
+    margin-top: 1rem;
+}
+
+.proceed {
+    background-color: #c6e4c6;
+    margin-top: 1rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* NOT FOUND */
+
+.not-found {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
