@@ -1,0 +1,31 @@
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Ubuntu', sans-serif;
+        letter-spacing: 0.03em;
+        color: #f1f3f8;
+        border: rgb(65, 64, 64) 13px solid;
+        // background-color: #38393a;
+        // padding: 1rem;
+        box-shadow: 1px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        .footer-container {
+            width: 100vw;
+            height: 15rem;
+        }
+        .video-footer {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .footer-text {
+            position: relative;
+            padding: 2rem;
+            top: -13rem;
+            color: #fff;
+            p {
+                margin-top: 3rem;
+            }
+        }
+    }

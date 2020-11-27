@@ -1,12 +1,52 @@
 /* generic styles for button & circular menu */
 
+header {
+    margin-top: 70rem;
+    height: 25rem;
+    background-image: url("../images/bubble1.jpg");
+    background-size: cover;
+    color: #c9c9c9;
+    text-align: center;
+    .menu-nav {
+        font-size: 1.2rem;
+        display: block;
+        .menu-links-item {
+            position: relative;
+            top: 8.5rem;
+            left: 16rem;
+            margin: 8.5rem 16rem 0 0;
+            color: aqua;
+        }
+        .menu-links-home {
+            position: relative;
+            top: 5rem;
+            left: 11.5rem;
+            margin: -5rem 11.5rem 0 0;
+        }
+        .menu-links-products {
+            position: relative;
+            margin-top: -4rem;
+        }
+        .menu-links-login {
+            position: relative;
+            margin-left: 11.5rem;
+            margin-top: -.5rem;
+        }
+        .menu-links-cart {
+            position: relative;
+            margin-left: 16.2rem;
+            margin-top: 0.4rem;
+        }
+    }
+}
+
 a {
     color: rgb(16, 56, 56);
 }
 
 .ctrl {
     position: absolute;
-    top: 75%;
+    top: 17%;
     left: 50%;
     font: 1.5rem/1.13 Verdana, sans-serif;
     transition: .5s;
@@ -15,7 +55,7 @@ a {
 
 /* generic link styles */
 
-a.ctrl,
+#start-icon.ctrl,
 .ctrl div {
     display: block;
     opacity: .56;
@@ -27,13 +67,13 @@ a.ctrl,
     cursor: pointer;
 }
 
-a.ctrl:hover,
+#start-icon.ctrl:hover,
 .ctrl div:hover,
-a.ctrl:focus {
+#start-icon.ctrl:focus {
     opacity: 1;
 }
 
-a.ctrl:focus {
+#start-icon.ctrl:focus {
     outline: none;
 }
 
@@ -43,7 +83,7 @@ a.ctrl:focus {
     width: 1.25em;
     height: 1.25em;
     border-radius: 50%;
-    box-shadow: 0 0 3px 1px white;
+    box-shadow: 0 0 3px 10px rgb(11, 11, 95);
 }
 
 
