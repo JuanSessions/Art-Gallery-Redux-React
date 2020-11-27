@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { connect } from "react-redux"
 import CartItem from './CartItem'
-import '../../style/cart.css'
+import '../../style/cart.scss'
 import { Link } from 'react-router-dom'
 
 const Cart = ({ cart }) => {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { connect } from 'react-redux'
-import '../style/nav.css'
+// import '../style/nav.scss'
 
 function Navbar({ cart, user }) {
     const [cartCount, setCartCount] = useState(0)
@@ -16,7 +16,8 @@ function Navbar({ cart, user }) {
 
     return (
         <nav>
-            <a class='button ctrl' href='#' tabindex='1'>★</a>
+             <Link id="start-icon" className='button ctrl' to='/'> ★ </Link> 
+            {/* <div id="start-icon" className='button ctrl' tabIndex='1'> ★ </div> */}
             <ul className='tip ctrl'>
 
                 <li className='slice'>
@@ -50,7 +51,6 @@ function Navbar({ cart, user }) {
                     <div>
                     <NavLink to="/cart" activeClassName="active" className="nav-link-cart">
                         <p><i className="fas fa-shopping-cart"></i></p>
-                        <p className="cart-counter"><span className="bold"> {cartCount} </span></p>
                     </NavLink>
                     </div>
                 </li>

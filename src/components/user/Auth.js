@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { connect } from 'react-redux'
 import { authorizeUser, logout } from '../../redux/user/user-actions'
-import '../../style/auth.css'
+import '../../style/auth.scss'
 
 function Auth({ user }) {
     const [username, setUsername] = useState("")

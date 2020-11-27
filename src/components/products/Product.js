@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { addToCart, loadCurrentItem } from '../../redux/shop/shopping-actions'
-import '../../style/product.css'
+import '../../style/product.scss'
 
 function Product({ product, addToCart, loadCurrentItem }) {
     return (
