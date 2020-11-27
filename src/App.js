@@ -1,18 +1,22 @@
 import React from 'react'
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import Routes from './Routes'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import './style/app.css'
+import Products from './components/products/Products'
+import Header from './components/Header'
+import Home from "./components/Home"
+import './style/app.scss'
+
 
 export default function App() {
     return (
-        <HashRouter>
+        <BrowserRouter>
             <div className="app">
-                <Navbar />
+                <Header />
                 <Routes />
                 <Footer />
             </div>
-        </HashRouter>
+        </BrowserRouter>
     )
 }
