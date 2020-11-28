@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { connect } from 'react-redux'
-// import '../style/nav.scss'
+ import '../style/nav.scss'
 
 function Navbar({ cart, user }) {
     const [cartCount, setCartCount] = useState(0)

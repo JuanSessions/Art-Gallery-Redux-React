@@ -17,7 +17,7 @@ body {
 /* HOME */
 
 .home {
-    background-color: aqua;
+    background-color: rgb(36, 74, 92);
 }
 
 .banner {
@@ -41,10 +41,10 @@ body {
 .container {
     position: relative;
     // margin-top: 200vh;
+    margin-left: .95rem;
     padding: 100px;
-    background: #5b1172;
     background-image: url("../images/bubble2.jpg");
-    opacity: 0.75;
+    opacity: 0.5;
     h2 {
         font-size: 2.5em;
         margin-bottom: 20px;
