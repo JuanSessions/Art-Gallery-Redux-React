@@ -14,7 +14,7 @@ const INITIAL_STATE = {
             title: "Alfred Hitchcock: The Ultimate Collection",
             description: "Universally recognized as the Master of Suspense, the legendary Alfred Hitchcock directed some of cinema's most thrilling and unforgettable classics. Alfred Hitchcock: The Ultimate Collection features 15 iconic films from the acclaimed director's illustrious career including Psycho, The Birds, Rear Window, Vertigo, North by Northwest and many more. Starring Hollywood favorites such as James Stewart, Cary Grant, Grace Kelly, Paul Newman, Janet Leigh, Anthony Perkins, Tippi Hedren, Sean Connery and Kim Novak, this definitive collection showcases a true cinematic master at his best. Featuring over 15 hours of insightful bonus features plus an exclusive collectible book, each film has been digitally restored from high resolution film elements for the ultimate Hitchcock experience.",
             price: 50.0,
-            image: "./images/hitchcock.png",
+            image: "./images/collage.jpg",
         },
         {
             id: 3,

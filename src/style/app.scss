@@ -5,52 +5,85 @@
 }
 
 body {
+    background-color: #0c191f;
     overflow-x: hidden;
-    position: relative;
 }
 
 .app h2 {
     text-align: center;
 }
 
+//whole video with overlay to control final color together .video-overlay .video-first
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 80vh;
+    background-color: rgba(20, 92, 50, 0.4);
+    h1 {
+        position: relative;
+        top: 43.7%;
+        left: 65%;
+        font-size: 2.6rem;
+        text-shadow: 0px 1px 0px rgba(127, 127, 127, 1);
+    }
+    h2 {
+        position: relative;
+        top: 35.2%;
+        right: 18rem;
+        font-size: 2.6rem;
+        text-shadow: 0px 1px 0px rgba(127, 127, 127, 1);
+    }
+}
+
+.video-first {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
 
 /* HOME */
 
 .home {
-    background-color: rgb(36, 74, 92);
+    background-color: rgb(61, 69, 87);
 }
 
 .banner {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: rgb(174, 174, 240);
-    clip-path: circle(200px at center center);
+    top: 5rem;
+    left: 30rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 21rem;
+    height: 21rem;
+    clip-path: circle(50% at 50% 50%);
+    padding: 0.5rem;
 }
 
 .banner video {
     position: relative;
-    left: 0;
-    width: 100%;
-    height: 100%;
     object-fit: cover;
+    width: 21rem;
+    height: 21rem;
+    clip-path: circle(50% at 50% 50%);
 }
 
 .container {
     position: relative;
-    // margin-top: 200vh;
     margin-left: .95rem;
-    padding: 100px;
     background-image: url("../images/bubble2.jpg");
+    background-repeat: no-repeat;
     opacity: 0.5;
     h2 {
         font-size: 2.5em;
         margin-bottom: 20px;
         color: #fff;
+        text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+        color: #ac0000;
     }
     p {
+        padding: 3rem;
         font-size: 1em;
         color: #fff;
     }

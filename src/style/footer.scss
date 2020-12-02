@@ -13,6 +13,7 @@
         .footer-container {
             width: 100vw;
             height: 15rem;
+            margin-bottom: 4.5rem;
         }
         .video-footer {
             width: 100%;
@@ -23,7 +24,8 @@
             position: relative;
             padding: 2rem;
             top: -13rem;
-            color: #fff;
+            font-size: large;
+            color: black;
             p {
                 margin-top: 3rem;
             }
