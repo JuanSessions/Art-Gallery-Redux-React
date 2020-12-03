@@ -7,7 +7,7 @@ function Products({ products }) {
     console.log("products:", products)
     return (
         <div className="products">
-            <h2>Book Products</h2>
+            <h2>Artworks</h2>
             {products.map((product) => (
                 <Product key={product.id} product={product} />
             ))}

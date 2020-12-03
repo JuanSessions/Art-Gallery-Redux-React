@@ -13,7 +13,7 @@ function Auth({ user }) {
 
     return (
         <div className="auth">
-            <h2>Auth</h2>
+            <h2>Authorization</h2>
             {!user.isAuth ?
                 <form onSubmit={submitHandler}>
                     <fieldset>

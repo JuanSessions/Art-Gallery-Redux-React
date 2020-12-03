@@ -23,7 +23,7 @@ const Cart = ({ cart }) => {
 
     return (
         <div className="cart">
-            <h2>You Shopping Cart</h2>
+            <h2>Your Shopping Cart</h2>
             <div className="cart-details">
                 <div className="">
                     {cart.map((item) => (

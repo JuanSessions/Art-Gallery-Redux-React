@@ -14,7 +14,7 @@ function Product({ product, addToCart, loadCurrentItem }) {
             <div className="product-info">
                 <h3>{product.title}</h3>
                 <p>{product.description}</p>
-                <p className="price">Price: {product.price} €</p>
+                {/* <p className="price">Price: {product.price} €</p> */}
             </div>
 
             <div className="product-btns">

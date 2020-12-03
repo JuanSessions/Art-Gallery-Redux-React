@@ -5,10 +5,13 @@ import { addToCart } from '../../redux/shop/shopping-actions'
 function SingleProduct({ current, addToCart }) {
     return (
         <div className="single-cart-product-container">
-            <h2>Product Overview</h2>
+            <h2>Single Item Overview</h2>
             {current &&
                 <div className="product single-cart-product">
-                    <img src={current.image} alt="product" width="180" />
+                    <div className="img-div">
+                         <img src={current.image} alt="product" width="250" />
+                    </div>
+                   
                     <div>
                         <h3>{current.title}</h3>
                         <p>{current.description}</p>

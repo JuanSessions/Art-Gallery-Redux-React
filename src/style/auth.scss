@@ -1,13 +1,23 @@
 .auth {
-    margin: 3rem auto;
+    margin: 1rem auto;
     height: 68vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 5;
+    background-color: rgba(33, 33, 49, 0.5);
+    h2 {
+        color: rgb(147, 180, 180);
+        margin-top: -3rem;
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
 }
 
 form {
+    color: white;
     width: 30rem;
     display: flex;
     flex-direction: column;
@@ -47,7 +57,7 @@ label input {
 }
 
 .login-btn {
-    background-color: #c6e4c6;
+    background-color: #cac6e4;
     margin-top: 1rem;
     padding: 0.5rem 2rem;
 }
