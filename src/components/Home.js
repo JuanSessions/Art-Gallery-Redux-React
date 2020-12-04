@@ -20,6 +20,7 @@ export default function Home() {
              </section>
              */}
              <div className="container">
+                 
                  <h2>Display Of Creativity </h2>
                  <h4>Audiovisual art</h4>
                  <p>The book Art and the Senses cites the Italian Futurist artists, Fortunato Depero and Luigi Russolo as designing art machines in 1915 to create a multisensory experience of sound, movement and colour. In the 1970s Harry Bertoia created sound sculptures of objects to have a multisensory effect, exploring the relationships between the sound,
@@ -33,7 +34,7 @@ export default function Home() {
                        though historically this has never been a definition of visual music. Visual music has also been defined as a form of intermedia.
 
                  </p>
-                 <h4>Design as an Extension of Art Practice</h4>
+                 <h4>Design as an extension of art practice</h4>
                   <p>Christopher Mount: Well, design is really very simple. I don’t know why it becomes such a big deal. Design is really anything you can use, anything that has a function. That’s a Marxist way of looking at it, but basically a piece of art is something that doesn’t necessarily have a function. That’s a definition of fine art. It’s pleasing and
                        it’s wonderful to look at and so on but you don’t tend to use it as a tray, you don’t get in it and drive to work like you do a piece of design. That’s not to say that design can’t be as beautiful as work of art, it’s just that you also can use it. There are cross-overs nowadays and there are a lot of people, particularly artists, 
                        using design as a jumping off point for something else, for instance making tables that you can’t necessarily use. Frank Gehry is a good example of somebody who is on the other side of that approach because he’s an architect who makes roofs that look like sculpture.

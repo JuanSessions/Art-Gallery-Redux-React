@@ -11,7 +11,7 @@ const INITIAL_STATE = {
         },
         {
             id: 2,
-            title: "(isAlive ? 'Love' : 'Death')",
+            title: "(isAlive ? 'Love' : 'Dead')",
             description: "Description of the different pieces here and artist's name",
             price: 0,
             image: "./images/dasein.png",
