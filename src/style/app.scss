@@ -9,6 +9,10 @@ body {
     overflow-x: hidden;
 }
 
+.app {
+    width: 100%;
+}
+
 .app h2 {
     text-align: center;
 }
@@ -30,8 +34,8 @@ body {
     }
     h2 {
         position: relative;
-        top: 43%;
-        right: 18rem;
+        top: 44%;
+        right: 19rem;
         font-size: 2.6rem;
         text-shadow: 0px 1px 0px rgba(127, 127, 127, 1);
     }
@@ -53,13 +57,16 @@ body {
 
 // home
 .container {
+    width: 96.65vw;
     position: relative;
-    margin-left: .95rem;
+    margin-left: 1rem;
     background-image: url("../images/bubble2.jpg");
     background-repeat: no-repeat;
+    background-size: contain;
     opacity: 0.6;
     z-index: 2;
     h2 {
+       margin-left: 1rem;
         font-size: 2.5em;
         margin-bottom: 20px;
         text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
@@ -82,7 +89,8 @@ body {
 .banner {
     position: fixed;
     top: 9rem;
-    left: 29.8rem;
+    // left: 29.8rem;
+    right: 35.9%;
     background-color: rgba(0, 0, 0, 0.8);
     width: 21rem;
     height: 21rem;
@@ -98,19 +106,31 @@ body {
     clip-path: circle(50% at 50% 50%);
 }
 
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 0;
+}
+
 
 /* MIDDLE PART */
 
 .middle-part {
     height: 25rem;
-    background-image: url("../images/bubble1.jpg");
+    width: 97vw;
+    background-image: url("../images/bubble1cut.jpg");
     background-size: cover;
     color: black;
     text-align: center;
     border: rgb(7, 34, 30) 14px solid;
     h2 {
-        margin: 1rem;
-        margin-left: 3.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 0 1.5rem;
         color: rgb(4, 148, 112);
         font-size: 2rem;
         letter-spacing: 0.8rem;

@@ -10,7 +10,7 @@ export default function Footer() {
                 <video src={postervideo1} autoPlay muted loop className="video-footer"></video>
                 <div className="footer-text">
                     <h3>Original Design </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi aperiam nam et cupiditate perspiciatis voluptates quidem inventore vel quas aut, sunt at.</p>
+                    <p>juanSessions designer - juanSessions designer - juanSessions designer -juanSessions designer -juanSessions designer - juanSessions designer</p>
                 </div>
             </div>
         </footer>
