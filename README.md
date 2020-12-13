@@ -1,1 +1,1 @@
-Art Gallery Photos Gallery Project REACT-REDUX
+Art Gallery-Photography Gallery Project REACT-REDUX
