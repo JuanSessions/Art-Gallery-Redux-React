@@ -34,3 +34,10 @@ export const loadCurrentItem = (item) => {
         payload: item
     }
 };
+
+// export const backToAllProducts = (products) => {
+//     return {
+//         type: actionTypes.LOAD_PRODUCTS,
+//         payload: products
+//     }
+// };

@@ -61,7 +61,6 @@
     margin: 1rem 0;
     h2 {
         padding-top: 1rem;
-        color: rgb(209, 205, 205);
     }
 }
 
@@ -80,6 +79,7 @@
 .img-div img {
     min-height: 100%;
         min-width: 100%;
+
     
 }
 
@@ -89,4 +89,13 @@
 
 .add-cart {
     margin-top: 0.9rem;
+}
+
+.all {
+    color: rgb(65, 56, 56);
+    margin-left: 2rem;
+    background-color: rgb(145, 170, 192);
+    border-radius: 7px;
+    cursor: pointer;
+    
 }

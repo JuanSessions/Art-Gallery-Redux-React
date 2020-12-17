@@ -1,11 +1,18 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { addToCart } from '../../redux/shop/shopping-actions'
+import '../../style/product.scss'
+import { Link } from 'react-router-dom'
 
 function SingleProduct({ current, addToCart }) {
     return (
         <div className="single-cart-product-container">
             <h2>Single Item Overview</h2>
+            <Link to="/products">
+                        <button className="btns add add-cart all">
+                            Back to all products
+                    </button>
+                    </Link>
             {current &&
                 <div className="product single-cart-product">
                     <div className="img-div">
@@ -20,6 +27,7 @@ function SingleProduct({ current, addToCart }) {
                             Add To Cart
                     </button>
                     </div>
+                    
                 </div>
             }
         </div>
